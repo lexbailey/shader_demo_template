@@ -1,0 +1,11 @@
+[package]
+name = "shader_demo_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glutin = { version="0.28.0"}
+gl = { version="0.14.0"}
+gl_abstractions = { path="../gl_abstractions"}
+affine = { path="../affine"}
+
